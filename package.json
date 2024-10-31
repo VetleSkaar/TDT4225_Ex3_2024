@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "in": "ts-node src/insert.ts",
+    "query": "ts-node src/query/run.ts"
+  },
+  "dependencies": {
+    "mongodb": "^6.2.0",
+    "mongoose": "^7.6.3",
+    "node-os-walk": "^1.0.2",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
